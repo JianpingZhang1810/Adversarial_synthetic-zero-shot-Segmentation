@@ -5,6 +5,11 @@
 https://arxiv.org/pdf/1812.02132.pdf
 
 (Object Detection)we re-frame the adversarial attack problem as learning a distribution of parameters that always fool the agent. In the semantic case, our proposed adversary (denoted as BBGAN) is trained to sample parameters that describe the environment with which the black-box agent interacts, such that the agent performs its dedicated task poorly in this environment.
+### 2 Adversarially Tuned Scene Generation
+https://arxiv.org/pdf/1701.00405.pdf
+
+our work combines recent advances in CG, which aims at generating stochastic scene layouts using large collections of 3D object models, and generative adversarial training, which aims at training generative models by measuring discrepancy between generated and real data in terms of their separability in the space of a deep discriminatively-trained classifier. Our method uses iterative estimation of the posterior density of prior distributions for a generative graphical model. This is done within a rejection sampling framework. Initially, we assume uniform distributions as priors over parameters of a scene described by a generative graphical model. As iterations proceed the uniform prior distributions are updated sequentially to distributions that are closer to the unknown distributions of target data.
+
 
 ## Synthetic dataset for semantic segmentation
 ### 1 Learning Semantic Segmentation from Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
