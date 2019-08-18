@@ -1,6 +1,6 @@
 # Adversarial_synthetic-zero-shot-Segmentation
 
-## Adversarial datasugmentation in semantic segmentation
+## Adversarial data augmentation in semantic segmentation
 
 ## Synthetic dataset for semantic segmentation
 ### 1 Learning Semantic Segmentation from Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
