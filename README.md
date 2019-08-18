@@ -1,6 +1,10 @@
 # Adversarial_synthetic-zero-shot-Segmentation
 
 ## Adversarial data augmentation in semantic segmentation
+### 1 SADA: Semantic Adversarial Diagnostic Attacks for Autonomous Applications
+https://arxiv.org/pdf/1812.02132.pdf
+
+(Object Detection)we re-frame the adversarial attack problem as learning a distribution of parameters that always fool the agent. In the semantic case, our proposed adversary (denoted as BBGAN) is trained to sample parameters that describe the environment with which the black-box agent interacts, such that the agent performs its dedicated task poorly in this environment.
 
 ## Synthetic dataset for semantic segmentation
 ### 1 Learning Semantic Segmentation from Synthetic Data: A Geometrically Guided Input-Output Adaptation Approach
@@ -19,6 +23,15 @@ we propose to use a virtual world to automatically generate realistic synthetic 
 https://arxiv.org/pdf/1605.06457.pdf
 
 We propose an efficient real-to-virtual world cloning method, and validate our approach by building and publicly releasing a new video dataset, called “Virtual KITTI” 1 , automatically labeled with accurate ground truth for object detection, tracking, scene and instance segmentation, depth, and optical flow. We provide quantitative experimental evidence suggesting that (i) modern deep learning algorithms pre-trained on real data behave similarly in real and virtual worlds, and (ii) pre-training on virtual data improves performance. As the gap between real and virtual worlds is small, virtual worlds enable measuring the impact of various weather and imaging conditions on recognition performance, all other things being equal.
+### 5 Sensor Transfer: Learning Optimal Sensor Effect Image Augmentation for Sim-to-Real Domain Adaptation
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8630027
+
+we propose a learned augmentation network composed of physically-based augmentation
+functions. Our proposed augmentation pipeline transfers specific
+effects of the sensor model—chromatic aberration, blur, exposure,
+noise, and color temperature—from a real dataset to a synthetic
+dataset. We provide experiments which demonstrate that augmenting synthetic training datasets with the proposed learned augmentation framework reduces the domain gap between synthetic and
+real domains for object detection in urban driving scenes.
 
 ## Zero-shot semantic segmentation
 ### 1 Zero-Shot Semantic Segmentation
