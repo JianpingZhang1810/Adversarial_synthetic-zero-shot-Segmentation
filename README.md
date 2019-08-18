@@ -34,16 +34,14 @@ We propose an efficient real-to-virtual world cloning method, and validate our a
 ### 5 Sensor Transfer: Learning Optimal Sensor Effect Image Augmentation for Sim-to-Real Domain Adaptation
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8630027
 
-we propose a learned augmentation network composed of physically-based augmentation
-functions. Our proposed augmentation pipeline transfers specific
-effects of the sensor model—chromatic aberration, blur, exposure,
-noise, and color temperature—from a real dataset to a synthetic
-dataset. We provide experiments which demonstrate that augmenting synthetic training datasets with the proposed learned augmentation framework reduces the domain gap between synthetic and
-real domains for object detection in urban driving scenes.
+we propose a learned augmentation network composed of physically-based augmentation functions. Our proposed augmentation pipeline transfers specific effects of the sensor model—chromatic aberration, blur, exposure, noise, and color temperature—from a real dataset to a synthetic dataset. We provide experiments which demonstrate that augmenting synthetic training datasets with the proposed learned augmentation framework reduces the domain gap between synthetic and real domains for object detection in urban driving scenes.
 
 ## Zero-shot semantic segmentation
 ### 1 Zero-Shot Semantic Segmentation
 https://arxiv.org/pdf/1906.00817.pdf
 
 we present a novel architecture, ZS3Net, combining a deep visual segmentation model with an approach to generate visual representations from semantic word embeddings. By this way, ZS3Net addresses pixel classification tasks where both seen and unseen categories are faced at test time (so called “generalized” zero-shot classification)
+### 2 Generalizing to Unseen Domains via Adversarial Data Augmentation
+https://papers.nips.cc/paper/7779-generalizing-to-unseen-domains-via-adversarial-data-augmentation.pdf
 
+We are concerned with learning models that generalize well to different unseen domains. We consider a worst-case formulation over data distributions that are near the source domain in the feature space. Only using training data from a single source distribution, we propose an iterative procedure that augments the dataset with examples from a fictitious target domain that is "hard" under the current model. We show that our iterative scheme is an adaptive data augmentation method where we append adversarial examples at each iteration. For softmax losses, we show that our method is a data-dependent regularization scheme that behaves differently from classical regularizers that regularize towards zero (e.g., ridge or lasso). On digit recognition and semantic segmentation tasks, our method learns models improve performance across a range of a priori unknown target domains.
