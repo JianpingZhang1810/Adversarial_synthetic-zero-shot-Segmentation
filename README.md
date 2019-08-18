@@ -1,4 +1,4 @@
-# Adversarial_synthetic-zero-shot-Segmentation
+# Adversarial_synthetic_zero-shot-Segmentation
 
 ## Adversarial data augmentation in semantic segmentation
 ### 1 SADA: Semantic Adversarial Diagnostic Attacks for Autonomous Applications
